@@ -68,6 +68,12 @@ const test = () => {
 }
 </script>
 
+<script lang="ts">
+export default {
+  name: 'testComponent'
+}
+</script>
+
 <template>
   <main class="body">
     <div @click="test">test</div>
